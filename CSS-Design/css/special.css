@@ -1,0 +1,75 @@
+/* CSS Document */
+body, p, h1, h2, h3, ul, ol, li, a, span {
+	margin: 0px;
+	padding: 0px;
+}
+ul, ol, li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+body {
+	background: linear-gradient( to right, #03F 0%, yellow 100%)
+}
+/*a{ color:#3792b3;}*/
+ol {
+	margin-top: 150px;
+	margin-left: 300px;
+}
+ol.specials li {
+	width: 240px;
+	float: left;
+	margin: 0 15px 1.5em 0;
+	overflow: hidden;
+}
+ol.specials li div.special {
+	height: 148px;
+	position: relative;
+	border: 15px solid #cfad80;
+	border-radius: 8px;
+	box-shadow: 2px 2px 4px rgba(0,0,0,.3);
+}
+ol.specials li div.special img {
+	transform: scale(1.2, 1.2);
+	transition: transform 0.8s linear 0s;
+}
+ol.specials li div.special a span {
+	display: block;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	font: normal 0.8em Georgia, serif;
+	
+	color: #ccc;
+	background: rgba(0,0,0,.4);
+	opacity: 0;
+	transition: opacity 0.8s linear 0.5s;
+}
+ol.specials li div.special a span strong {
+	display: block;
+	padding: 10px 10px 0 10px;
+	color: #fff;
+	font-weight: normal;
+	font-style: italic;
+}
+ol.specials li div.special a span em {
+	display: block;
+	padding: 2 10px 8px 10px;
+	font-style: normal;
+	color: #e3c887;
+}
+ol.specials li div.special:hover span {
+	opacity: 1;
+	transition: opacity 0.8s linear 0.5s;
+}
+ol.specials li div.special:hover img {
+	transform: scale(1, 1);
+	transition: transform 0.8s linear 0s;
+}
+.image {
+	height: 148px;
+	width: 210px;
+	overflow: hidden;
+}

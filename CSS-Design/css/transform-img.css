@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background: linear-gradient( to right, #F9F, yellow)
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+.specials {
+	margin-top: 200px;
+	margin-left: 300px;
+}
+.specials li {
+	float: left;
+	margin-left: 20px;
+}
+.specials li .special {
+	width: 210px;
+	height: 148px;
+	border: 15px solid #999;
+	border-radius: 10px 10px 10px 10px;
+	overflow: hidden;
+}
+.specials li .special .special-img {
+	position: relative;
+}
+.specials li .special .special-img img {
+	transform: scale(1.2, 1.2);
+	transition: transform 1s;
+}
+.specials li .special .special-img span {
+	position: absolute;
+	width: 210px;
+	height: 50px;
+	display: block;
+	margin-top: -33px;
+	content: ' ';
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	transform: scaleY(0);
+	opacity: 0;
+	transition: transform 2s;
+}
+
+.specials li .special .special-img:hover span {
+	color:#FFF;
+	background:#333;text-align:center;
+	opacity: .5;
+	transition: transform 2s;
+	transform: scaleY(1);
+	transform-origin: bottom;
+}
+.specials li .special .special-img:hover img {
+	transform: scale(1, 1);
+	transition: transform 1s;
+}
