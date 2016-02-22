@@ -1,0 +1,24 @@
+@charset "utf-8";
+body{ background: linear-gradient( to top, #FFF,#f0a1f7); position:relative;}
+*{ margin:0; padding:0;}
+li{ list-style:none; }
+a{ text-decoration:none;}
+body .img2{ background:url(images/z3.png) repeat-x; width:100%; height:174px;}
+.box{ width:1080px; height:1000px; margin:0 auto;
+}
+.box .box-top{ width:100%; height:70%; position:relative; overflow:hidden;}
+.box .box-top .img1{ margin-left:10px; position:absolute;}
+.box .box-top .img3{ position:absolute; margin-left:340px; margin-top:220px;}
+.box .box-top .z{ position:absolute; margin-top:320px; font-weight:bold; font-size:50px;
+ color:#333; text-align:center; width:30px; height:50px; background:#666; border-radius:5px; 
+ line-height:50px; opacity:.7;}
+ .box .box-top .z:hover{ opacity:1; color:#FFF;}
+.box .box-top #prev{ position:absolute; left:70px; }
+.box .box-top #next{ position:absolute;right:70px; }
+.box .box-right{ width:100%; height:20%; position:relative;}
+
+.box .box-right ul{ position:absolute; margin-top:30px; margin-left:550px;}
+.box .box-right ul li{ float:left;background:url(images/tu5.png) no-repeat; width:128px; height:130px; display:block;}
+.box .box-right ul li a{ display:block; font-size:24px;font-weight:bold;
+ color:#000; width:125px; height:127px; text-align:center; line-height:130px; margin-top:4px;} 
+.box .box-right ul li a:hover{ background:url(images/tu7.png) no-repeat; color:#FFF;}

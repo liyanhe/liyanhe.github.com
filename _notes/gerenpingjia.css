@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+li{ list-style:none;}
+a{ text-decoration:none;}
+body{ background: linear-gradient( to top, #FFF,#f0a1f7 );}
+.box{ width:1080px; height:1000px; margin:0 auto; margin-top:20px; background:#FFF; /*border:2px solid #999;
+*/ border-radius:10px; }
+ /*top*/
+.box-s{ width:100%; height:70%; position:relative; }
+.box-s .p1{ position:absolute; font-size:72px; font-weight:bold; color:#5b2a0c;
+font-family:"华文新魏"; margin-top:20px; }
+
+.box-s .s-img{ width:940px; height:530px; position:absolute; background:url(images/g1.png) no-repeat;
+margin-top:150px; margin-left:72px;}
+.box-s .s-img p{ font-size:24px; color:#FFF; font-weight:bold; margin-left:110px; position:absolute;}
+.box-s .s-img .p2{ position:absolute; margin-top:58px;}
+.box-s .s-img .p3{ position:absolute; margin-top:154px;}
+.box-s .s-img .p4{ position:absolute; margin-top:254px;}
+.box-s .s-img .p5{ position:absolute; margin-top:354px;}
+.box-s .s-img .p6{ position:absolute; margin-top:454px;}
+.box-s .s-img2{ position:absolute; margin-top:70px; margin-left:58px;}
+
+
+/*foot*/
+.box-x{ width:100%; height:30%;position:relative;}
+.box .box-x ul{ position:absolute; margin-top:70px; margin-left:550px;}
+.box .box-x ul li{ float:left;background:url(images/tu5.png) no-repeat; width:128px; height:130px; display:block;}
+.box .box-x ul li a{ display:block; font-size:24px;font-weight:bold;
+ color:#000; width:125px; height:127px; text-align:center; line-height:130px; margin-top:4px;} 
+.box .box-x ul li a:hover{ background:url(images/tu7.png) no-repeat; color:#FFF;}
+.box .box-x .box-x2{ width:100%; height:138px; position:absolute;
+ background:url(images/g3.png) repeat-x; margin-top:162px;
+}
+
+
+
+
+
+
+
+
+

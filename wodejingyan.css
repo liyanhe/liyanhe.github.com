@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0; padding:0;}
+li{ list-style:none;}
+a{text-decoration:none;}
+body{ background: linear-gradient( to top,#fff, #F69);}
+.box-top{ width:100%; height:60px; background:#CCC; position:relative;}
+/*logo*/
+.box-top .img1{ width:60px; height:60px; margin-left:150px; position:absolute;}
+.box-top .p1{ width:100px; height:60px; margin-left:220px; position:absolute;
+line-height:60px; font-weight:bold; text-decoration:underline;}
+/*nav*/
+nav{ position: absolute; width:500px; height:60px; line-height:60px;
+margin-left:840px;}
+nav ul{}
+nav ul li{ float:left; margin-left:20px;}
+nav ul li a{  color:#666; width:70px; height:40px; display:block; 
+text-align:center;font-weight:bold;}
+nav ul li a:hover{ border-bottom:2px solid #000; color:#333; font-weight:bold;}
+/*content*/
+
+.box{ width:1080px; height:620px; margin:0 auto; background:url(images/bj1.png);
+}
+.box-1{ width:100%; background:#666;position:relative;  }
+.box-1 .p2{ position:absolute; margin-left:460px; font-size:30px; font-family:"华文新魏"; 
+font-weight:bold; margin-top:40px; width:180px; height:50px; border-bottom:3px solid #F00;
+text-align:center;}
+/*图片的轮播*/
+.tb{ width:900px; height:300px; background:#CCC; position:absolute;
+  margin-left:90px; margin-top:160px; overflow:hidden;white-space:nowrap;
+  box-shadow:5px 5px 5px #666666; border-radius:10px;}
+.tb .tb-img1{ position:absolute; margin-left:100px; margin-top:36px;}
+.tb .tb-img2{ position:absolute; margin-left:710px; margin-top:210px;}
+.tb .tb-img3{ position:absolute; margin-left:180px; margin-top:35px;}
+.tb .tb-1{text-align:center;}
+.tb .tb-1{ width:400px; height:200px; display:block; float:left; 
+background:#F00; margin-left:10px; margin-top:10px; }
+.tb .z{ width:50px; height:50px; background:#333; display:block; 
+border:5px solid #FFF; border-radius:40px; text-align:center; line-height:50px;
+color:#FFF; font-size:20px; font-weight:bold; position:absolute; margin-top:115px;}
+.tb .z:hover{ opacity:.5;}
+#prev{ margin-left:10px;}
+#next{ margin-left:832px;}

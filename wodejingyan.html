@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="wodejingyan.css">
+<script type="text/javascript">
+window.onload=function ()
+{
+	var  oBanner=document.getElementById("banner");
+	var  oPrev=document.getElementById("prev");
+	var  oNext=document.getElementById("next");
+	var  oImg=document.getElementById("pic");
+
+	//初始化
+	var arrImg=['images/nc.png','images/mh.png']
+	var num=0;
+	oImg.src=arrImg[num];//HTML-DOM
+	oPrev.onclick=function ()
+	{
+		num--;
+		if(num==-1){num=1;};
+		oImg.src=arrImg[num];
+				
+	};
+	oNext.onclick=function ()
+	{
+		num++;
+		if(num==2){num=0;};
+		oImg.src=arrImg[num];
+		
+	};timer=setInterval(function (){
+		num++;
+		if(num==2){num=0};
+		oImg.src=arrImg[num];
+		},3000);
+	
+}
+</script>
+</head>
+
+<body>
+<div class="box-top">
+<img src="images/tu2.png" alt="" class="img1" >
+<p  class="p1">个人简历</p>
+<nav class="nav1">
+<ul>
+  <li><a href="index.html">首页</a></li>
+  <li><a href="zhuanyejineng.html">专业技能</a></li>
+  <li><a href="wode zuoping.html">我的作品</a></li>
+  <li><a href="wodejingyan.html">我的经历</a></li>
+</ul>
+</nav>
+</div>
+<div class="box" id="banner">
+<div class="box-1">
+<p class="p2">我的经验</p>
+</div>
+<div class="tb" >
+ <img src="images/j1.png" alt="" class="tb-img1">
+ <img src="images/j2.png" alt="" class="tb-img2"> 
+ <a href="" ><img src="" id="pic" alt="" class="tb-img3"></a> 
+   <a href="#" id="prev" class="z">&lt;</a> 
+   <a href="#" id="next" class="z">&gt;</a>
+</div>
+</div>
+</body>
+</html>

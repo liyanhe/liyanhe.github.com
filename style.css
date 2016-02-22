@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0; margin:0;}
+a{ text-decoration:none;}
+li{ list-style:none;}
+body{ background: linear-gradient( to top, #FFF,#0CF)}
+.box-d{width:1080px;; margin:0 auto; background:#FFF; padding-top:10px;}
+.box{ width:1050px; height:1200px; margin:0 auto; background:url(images/bj1.png); margin-top:10px;}
+.box .box-s{ width:100%; height:55%; background:url(images/tu1.png) no-repeat;
+  position:relative;}
+.box .box-s .img1{ position:absolute;}
+.box .box-s .box-img .img2{ transform: scale(1, 1);
+transition: transform 1s;}
+.box .box-s .box-img:hover .img2{transform: scale(1.1, 1.1);
+	transition: transform 1s;}
+.box .box-s .img2{ position:absolute; margin-left:399px; margin-top:271px;}
+.box .box-s a .p3{ margin-left:455px; position:absolute; margin-top:550px;
+font-size:48px; font-weight:bold; color:#000;}
+.box .box-s a .p4{margin-left:100px; position:absolute; margin-top:640px;
+font-size:24px; color:#333;}
+.box .box-s .box-s1{position:absolute; margin-left:135px; font-size:72px; 
+font-weight:bold; margin-top:22px; font-family:"华文新魏"; color:#FFF; }
+.box .box-s .box-s1 .p1{text-shadow:0px 0px 8px #000000; }
+.box .box-s .box-s1 .p2{ width:162px; height:auto; margin-left:298px;text-shadow:0px 0px 8px #000000;}
+.box .box-left{ width:50%; height:45%; float:left; position:relative;}
+.box .box-left .box-left1{ margin-top:106px;}
+.box .box-left .box-left1 .p5{ position:absolute; margin-top:20px; color:#282828;
+ font-size:36px; font-weight:bold;margin-left:10px;}
+ .box .box-left .box-left1 .p6{position:absolute; margin-top:120px; color:#333;
+ font-size:24px;margin-left:10px;}
+ .box .box-left .box-left1 .yj{ width:155px; height:4px; background:#999;
+ position:absolute; margin-top:65px;}
+.box .box-right{width:50%; height:45%; float:right; position:relative;}
+.box .box-right .p7{ position:absolute; margin-top:200px; margin-left:200px; 
+font-size:30px; color:#4a4b4b; font-weight:bold;}
+.box .box-right ul{ position:absolute; margin-top:280px;}
+.box .box-right ul li{ float:left;background:url(images/tu5.png) no-repeat; width:128px; height:130px; display:block;}
+.box .box-right ul li a{ display:block; font-size:24px;font-weight:bold;
+ color:#000; width:125px; height:127px; text-align:center; line-height:130px; margin-top:4px;} 
+.box .box-right ul li a:hover{ background:url(images/tu7.png) no-repeat; color:#FFF;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

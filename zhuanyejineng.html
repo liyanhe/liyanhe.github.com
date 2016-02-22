@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="zhuanyejineng.css">
+</head>
+<script type="text/javascript">
+window.onload=function(){
+	var c=document.getElementById("box1");
+	var b=document.getElementById("hd");
+	var e=c.getElementsByTagName("span");
+	var links=c.getElementsByTagName("a");
+	var box2=document.getElementById("box2");
+	var oLi=box2.getElementsByTagName("li");
+	for(var i=0;i<links.length;i++){
+		links[i].lj=i;
+		links[i].onmousemove=function()
+		{
+			showtab(this.lj);
+			return false;
+			}
+		}
+	function showtab(lj)
+	{
+		for(var j=0; j<oLi.length; j++)
+		{
+			if(lj==j)
+			{
+				oLi[j].style.display="block";
+				}else
+				{
+					oLi[j].style.display="none";
+					}
+			}
+		}
+		
+		
+		
+	}
+</script>
+<body>
+<div class="box-top">
+<img src="images/tu2.png" alt="" class="img1">
+<p  class="p1">个人简历</p>
+<nav>
+<ul>
+  <li><a href="index.html">首页</a></li>
+  <li><a href="#">专业技能</a></li>
+  <li><a href="wode zuoping.html">我的作品</a></li>
+  <li><a href="">我的经历</a></li>
+</ul>
+</nav>
+</div>
+<div class="box">
+
+<div class="box-1" id="box1">
+<p class="p2">专业技能</p>
+<a href=""><div class="box-t"><p>PS</p><span></span></div></a>
+<a href=""><div class="box-t"><p>HTML</p><span></span></div></a>
+<a href=""><div class="box-t"><p>CSS</p><span></span></div></a>
+<a href=""><div class="box-t"><p>JS</p><span></span></div><div></div></a>
+<div class="box-2" id="box2">
+<li class="p3"><p>•熟练使用photoshop软件操作<br>• 熟练使用Fireworks软件操作<br>• 熟练使用制图工具<br>• 能独立设计页面的制作和图片处理<br>
+</p></li>
+<li class="p4"><p>• 深刻理解Web标准<br>
+• 熟练运用html标签<br>
+• 熟悉xml及xhtml标记语言<br>
+• 掌握html5如SVG,localstorage新特性
+</p></li>
+<li class="p5"><p>• 熟练运用css及css3新属性<br>
+• 注重浏览器兼容性，熟悉常见的css hack（兼容至IE8)<br>
+• 掌握bootstrap框架及源码的实现
+</p></li>
+<li class="p6"><p>•掌握jQuery库<br>
+• 掌握ajax的运作原理<br>
+• 注重JavaScript性能优化<br>
+• 正在不断学习原生JavaScript，了解js闭包等
+</p></li>
+</div>
+</div>
+</div>
+</body>
+</html>
